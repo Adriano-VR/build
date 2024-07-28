@@ -6,8 +6,8 @@
       "dest": "dist/assets/$1"
     },
     {
-      "src": "/data.json",
-      "dest": "dist/data/"
+      "src": "/data/(.*)",
+      "dest": "dist/data/$1"
     },
     {
       "src": "/(.*)",
