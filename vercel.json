@@ -1,13 +1,17 @@
 {
-    "version": 2,
-    "routes": [
-      {
-        "src": "/assets/(.*)",
-        "dest": "dist/assets/$1"
-      },
-      {
-        "src": "/(.*)",
-        "dest": "dist/index.html"
-      }
-    ]
-  }
+  "version": 2,
+  "routes": [
+    {
+      "src": "/assets/(.*)",
+      "dest": "dist/assets/$1"
+    },
+    {
+      "src": "/data.json",
+      "dest": "/public/data.json"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "dist/index.html"
+    }
+  ]
+}
