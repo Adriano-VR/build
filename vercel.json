@@ -7,7 +7,7 @@
     },
     {
       "src": "/data.json",
-      "dest": "dist/data/data.json"
+      "dest": "dist/data/"
     },
     {
       "src": "/(.*)",
