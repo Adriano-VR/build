@@ -7,7 +7,7 @@
     },
     {
       "src": "/data.json",
-      "dest": "/public/data.json"
+      "dest": "dist/data/data.json"
     },
     {
       "src": "/(.*)",
